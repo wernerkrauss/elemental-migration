@@ -1,0 +1,50 @@
+ElementalAreaOld:
+  area1:
+    ID: 1
+  area2:
+    ID: 2
+  area51:
+    ID: 51
+
+PageWithoutElementalArea:
+  testpage:
+    Title: 'This page does not have an area'
+    ElementArea: =>ElementalAreaOld.area2
+
+Page:
+  some-page:
+    Title: 'this is an elemental page'
+    ElementArea: =>ElementalAreaOld.area1
+  page51:
+    ElementArea: =>ElementalAreaOld.area51
+
+Widget:
+  element1:
+    ID: 1
+    ClassName: BaseElement
+    Version: 1
+    Title: 'Element One'
+    Sort: 1
+    ParentID: =>ElementalAreaOld.area1
+    Enabled: 1
+    HideTitle: 0
+
+BaseElement:
+  element1:
+    ID: 1
+    HideTitle: 0
+    ExtraClass: 'fooClass'
+
+ElementContentOld:
+  content1:
+    ID: 2
+    Title: 'I got content'
+    HideTitle: 0
+    Style: 'some-style'
+    ParentID: =>ElementalAreaOld.area51
+
+ElementVirtualLinked:
+  virtual1:
+    ID: 3
+    LinkedElement: =>BaseElement.element1
+    ParentID: =>ElementalAreaOld.area51

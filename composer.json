@@ -1,0 +1,25 @@
+{
+  "name": "wernerkrauss/elemental-migration",
+  "description": "A migration tool for Silverstripe's Elemental V1 (SS3) to V2 (SS4) and above.",
+  "type": "silverstripe-vendormodule",
+  "homepage": "https://github.com/wernerkrauss/elemental-migration",
+  "keywords": ["silverstripe", "elemental", "migratin"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Werner M. Krauß",
+      "homepage": "https://www.netwerkstatt.at"
+    }
+    ],
+  "require": {
+    "php": ">=7.2",
+    "silverstripe/recipe-cms": "^4"
+  },
+  "require-dev":{
+    "dnadesign/silverstripe-elemental": "^2.0",
+    "dnadesign/silverstripe-elemental-virtual": "^1.2",
+    "phpunit/phpunit": "^5.7"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

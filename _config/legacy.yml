@@ -1,0 +1,11 @@
+---
+Name: elementallegacy
+---
+SilverStripe\ORM\DatabaseAdmin:
+  classname_value_remapping:
+    BaseElement: DNADesign\Elemental\Models\BaseElement
+    ElementContent: DNADesign\Elemental\Models\ElementContent
+
+Netwerkstatt\ElementalMigration\Task\ElementalMigration:
+  data_migration:
+    ElementVirtualLinked: ElementVirtual
