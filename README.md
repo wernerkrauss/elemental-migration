@@ -1,4 +1,4 @@
-# Elemental Migration Task
+# Elemental Migration Task [![Build Status](https://travis-ci.org/wernerkrauss/elemental-migration.svg?branch=master)](https://travis-ci.org/wernerkrauss/elemental-migration)
 A migration tool for Silverstripe's Elemental V1 (SS3) to V2 (SS4) and above. Use at your own risk!
 
 ## Installation
