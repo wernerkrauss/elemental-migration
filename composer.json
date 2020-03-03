@@ -16,8 +16,8 @@
     "silverstripe/recipe-cms": "^4"
   },
   "require-dev":{
-    "dnadesign/silverstripe-elemental": "^2.0",
-    "dnadesign/silverstripe-elemental-virtual": "^1.2",
+    "dnadesign/silverstripe-elemental": "^2.0 || ^3 || ^4",
+    "dnadesign/silverstripe-elemental-virtual": "^1",
     "phpunit/phpunit": "^5.7"
   },
   "minimum-stability": "dev",
