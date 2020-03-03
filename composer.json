@@ -12,13 +12,14 @@
     }
     ],
   "require": {
-    "php": ">=7.2",
-    "silverstripe/recipe-cms": "^4"
+    "php": ">=7.1",
+    "silverstripe/recipe-cms": "^4",
+    "dnadesign/silverstripe-elemental": "^2.0 || ^3 || ^4",
+    "dnadesign/silverstripe-elemental-virtual": "^1"
+
   },
   "require-dev":{
-    "dnadesign/silverstripe-elemental": "^2.0",
-    "dnadesign/silverstripe-elemental-virtual": "^1.2",
-    "phpunit/phpunit": "^5.7"
+     "phpunit/phpunit": "^5.7"
   },
   "minimum-stability": "dev",
   "prefer-stable": true

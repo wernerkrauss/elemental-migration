@@ -167,6 +167,12 @@ class ElementalMigration extends BuildTask
             array_values($elementClasses),
             function ($className) use ($schema) {
                 $table = $schema->tableName($className);
+                if (!(new DB())->get_schema()->hasTable($table)) {
+                    return false;
+                }
+
+                $fields = [];
+
                 $query = sprintf("SHOW COLUMNS from %s", $table);
                 $fields = DB::query($query)->column('Field');
                 return array_key_exists('Style', array_flip($fields));

@@ -29,7 +29,7 @@ class ElementalMigrationTaskTest extends SapphireTest
     ];
 
     protected static $required_extensions = [
-        Page::class => [OldElementalPageExtension::class],
+        Page::class => [OldElementalPageExtension::class, ElementalPageExtension::class],
         ElementContent::class => [ElementContentStyleExtension::class]
     ];
 
