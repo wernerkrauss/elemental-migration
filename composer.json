@@ -3,7 +3,7 @@
   "description": "A migration tool for Silverstripe's Elemental V1 (SS3) to V2 (SS4) and above.",
   "type": "silverstripe-vendormodule",
   "homepage": "https://github.com/wernerkrauss/elemental-migration",
-  "keywords": ["silverstripe", "elemental", "migratin"],
+  "keywords": ["silverstripe", "elemental", "migration"],
   "license": "MIT",
   "authors": [
     {
